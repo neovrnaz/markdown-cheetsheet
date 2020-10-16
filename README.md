@@ -1,4 +1,6 @@
-# Markdown Basics
+# Markdown Cheetsheet
+
+---
 
 # Headlines
 
@@ -67,14 +69,14 @@ plain text email.
 
 ## Numbered Lists
 1. Lvl One
-    2. lvl Two
-        3. lvl Three
-            4. lvl Four
+    2. Lvl Two
+        3. Lvl Three
+            4. Lvl Four
 ```       
 1. Lvl One
-    2. lvl Two
-        3. lvl Three
-            4. lvl Four
+    2. Lvl Two
+        3. Lvl Three
+            4. Lvl Four
 ```
 
 ## Bullet Points
