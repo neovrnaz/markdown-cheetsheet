@@ -67,14 +67,18 @@ Eisner, Farrar, Straus and Giroux, 2005, p. 514.`"  "` (Two spaces )
 ```
 
 ### Blockquotes
+A blockquote sets text apart from the rest of the document. It indicates that the 
+text is quoted from another source.
+
+You format a blockquote using the greater than symbol. If you want a blockquote to 
+span multiple paragraphs, add the greater than symbol to the line between paragraphs too.
+
 > Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 >
-> Readability, however, is emphasized above all else. A Markdown-formatted document should 
-be publishable as-is, as plain text, without looking like it’s been marked up with tags 
-or formatting instructions. While Markdown’s syntax has been influenced by several existing 
-text-to-HTML filters – including Setext, atx, Textile, reStructuredText, Grutatext, and 
-EtText – the single biggest source of inspiration for Markdown’s syntax is the format of 
-plain text email.  
+> Readability, however, is emphasized above all else. A Markdown-formatted document 
+>should be publishable as-is, as plain text, without looking like it’s been marked up 
+>with tags or formatting instructions. — 
+>[John Gruber](https://daringfireball.net/projects/markdown/ "Creator of Markdown")
 ```markdown
 >
 >
@@ -123,11 +127,16 @@ plain text email.
 * ***Bulleted, bold, italicised Lvl One***
     * ***Bulleted, bold, italicised Lvl Two***
 ```markdown
-* ***Bulleted, bold, italicised Lvl One***
-    * ***Bulleted, bold, italicised Lvl Two***
+\* ***Bulleted, bold, italicised Lvl One***
+    \* ***Bulleted, bold, italicised Lvl Two***
 ```
     
 ## Code
+We format code using the backtick character. The backtick is on the same 
+key as the tilde on a U.S. English keyboard, which is usually to the left of the number 1 and above the tab key.
+
+You can use a single backtick to create inline code. For example, you 
+may type something like this:
 
 #### One-line
 To install the latest version of NPM, you can type, `NPM install npm@latest -g`  
@@ -146,7 +155,6 @@ end
 
 example_method
 ```
-
 ```
 ```ruby
 def example_method
@@ -159,3 +167,20 @@ end
 example_method```
 
 ```
+
+---
+
+## Links
+[Github](https://github.com)
+```markdown
+[Github](https://github.com)
+```
+
+You also have the option to include a title, which appears
+when you hover your cursor over the link
+[Github](https://github.com "Link to Github")
+```markdown
+[Github](https://github.com "Link to Github")
+```
+
+---
