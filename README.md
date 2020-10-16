@@ -69,43 +69,44 @@ plain text email.
 
 ## Numbered Lists
 
-    1 Lvl One
-        2 Lvl Two
-            3 Lvl Three
-                4 Lvl Four
+1. Lvl One
+2. Lvl One
+    3. Lvl Two
+    3. Lvl Two
             
-```       
-    1. Lvl One
-        2. Lvl Two
-            3. Lvl Three
-                4. Lvl Four
+```markdown  
+1. Lvl One
+2. Lvl One
+    3. Lvl Two
+    3. Lvl Two
 ```
 
 ## Bullet Points
-    * Lvl One
-        * Lvl Two
-            * Lvl Three
-                * Lvl Four
+* Lvl One
+* Lvl One
+    * Lvl Two
+    * Lvl Two
             
-```        
-    * Lvl One
-        * Lvl Two
-            * Lvl Three
-                * Lvl Four
+```markdown
+* Lvl One
+* Lvl One
+    * Lvl Two
+    * Lvl Two
 ```
 
 * ***Bulleted, bold, italicised Lvl One***
     * ***Bulleted, bold, italicised Lvl Two***
 
-1. Lvl One
-    * Lvl Two
-    * Lvl Two
+```markdown
+* ***Bulleted, bold, italicised Lvl One***
+    * ***Bulleted, bold, italicised Lvl Two***
+```
     
 ## Code
 
 #### One-line
-To install the latest version of NPM, you can type, `NPM install npm@latest -g`
-```
+To install the latest version of NPM, you can type, `NPM install npm@latest -g`  
+```shell script
 `NPM install npm@latest -g`
 ```
 
