@@ -69,28 +69,29 @@ plain text email.
 
 ## Numbered Lists
 
-1. Lvl One
-    2. Lvl Two
-
+    1 Lvl One
+        2 Lvl Two
+            3 Lvl Three
+                4 Lvl Four
             
 ```       
-1. Lvl One
-    2. Lvl Two
-        3. Lvl Three
-            4. Lvl Four
+    1. Lvl One
+        2. Lvl Two
+            3. Lvl Three
+                4. Lvl Four
 ```
 
 ## Bullet Points
-  * Lvl One
-    * Lvl Two
-        * Lvl Three
-            * Lvl Four
+    * Lvl One
+        * Lvl Two
+            * Lvl Three
+                * Lvl Four
             
 ```        
-  * Lvl One
-    * Lvl Two
-        * Lvl Three
-            * Lvl Four
+    * Lvl One
+        * Lvl Two
+            * Lvl Three
+                * Lvl Four
 ```
 
 * ***Bulleted, bold, italicised Lvl One***
