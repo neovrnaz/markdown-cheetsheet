@@ -5,15 +5,29 @@
 # Headlines
 
 # H1
-`#`
+```markdown
+#
+```
+
 ## H2
-`##`
+```markdown
+##
+```
+
 ### H3
-`###`
+```markdown
+###
+```
+
 #### H4
-`####`
+```markdown
+####
+```
+
 ##### H5
-`#####`
+```markdown
+#####
+```
 
 ### Paragraphs and line breaks
 We create paragraphs by typing the way we would in any other program. Just hit return 
@@ -36,15 +50,21 @@ Eisner, Farrar, Straus and Giroux, 2005, p. 514.`"  "` (Two spaces )
 
 #### Italics
 *This works* and _works_ too  
-`*This works* and _works_ too`  
+```markdown
+*This works* and _works_ too
+```
 
 #### Bold
 **This works** and __works__ too  
-`**This works** and __works__ too`
+```markdown
+**This works** and __works__ too
+```
 
 #### Bold & Italic
 ***This is bold and italic***  
-`***This is bold and italic***`
+```markdown
+***This is bold and italic***
+```
 
 ### Blockquotes
 > Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
@@ -55,10 +75,11 @@ or formatting instructions. While Markdown’s syntax has been influenced by sev
 text-to-HTML filters – including Setext, atx, Textile, reStructuredText, Grutatext, and 
 EtText – the single biggest source of inspiration for Markdown’s syntax is the format of 
 plain text email.  
-
-` > `  
-` > `  
-` > `
+```markdown
+>
+>
+>
+```
 
 ### Horizontal Rule
 
@@ -68,17 +89,19 @@ plain text email.
 ## Lists
 
 ## Numbered Lists
-
 1. Lvl One
 2. Lvl One
-    3. Lvl Two
-    3. Lvl Two
-            
+    1. Lvl Two
+    2. Lvl Two
+        1. Three
+        2. Three     
 ```markdown  
 1. Lvl One
 2. Lvl One
-    3. Lvl Two
-    3. Lvl Two
+    1. Lvl Two
+    2. Lvl Two
+        1. Three
+        2. Three
 ```
 
 ## Bullet Points
@@ -86,17 +109,19 @@ plain text email.
 * Lvl One
     * Lvl Two
     * Lvl Two
-            
+        *Lvl Three
+        *Lvl Three         
 ```markdown
 * Lvl One
 * Lvl One
     * Lvl Two
     * Lvl Two
+        *Lvl Three
+        *Lvl Three  
 ```
 
 * ***Bulleted, bold, italicised Lvl One***
     * ***Bulleted, bold, italicised Lvl Two***
-
 ```markdown
 * ***Bulleted, bold, italicised Lvl One***
     * ***Bulleted, bold, italicised Lvl Two***
