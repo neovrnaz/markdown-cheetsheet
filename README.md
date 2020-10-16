@@ -71,8 +71,7 @@ plain text email.
 
 1. Lvl One
     2. Lvl Two
-        3. Lvl Three
-            4. Lvl Four
+
             
 ```       
 1. Lvl One
